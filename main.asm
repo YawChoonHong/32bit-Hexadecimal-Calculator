@@ -6,7 +6,7 @@ TITLE BOOLEAN CALCULATOR
 ;		   3. PUAH JUN HONG(A21EC0221)
 ;		   4.YAW CHOON HONG(A21EC0240)
 
-INCLUDE irvine32.inc
+INCLUDE Irvine32.inc
 
 .data
 operationMenu BYTE "--- Boolean Calculator ----------", 0dh, 0ah
