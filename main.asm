@@ -1,4 +1,4 @@
-TITLE BOOLEAN CALCULATOR
+TITLE HEXADECIMAL CALCULATOR
 ; Section: 03
 ; Group: 2
 ; Members: 1. MUHAMMAD SYAIF ALFARIZ BIN ILYAS SUSANTO(A21EC0094)
@@ -9,7 +9,7 @@ TITLE BOOLEAN CALCULATOR
 INCLUDE Irvine32.inc
 
 .data
-operationMenu BYTE "--- Boolean Calculator ----------", 0dh, 0ah
+operationMenu BYTE "--- Hexadecimal Calculator ----------", 0dh, 0ah
 			BYTE "1. x AND y", 0dh, 0ah
 			BYTE "2. x OR y", 0dh, 0ah
 			BYTE "3. NOT x", 0dh, 0ah
@@ -31,10 +31,10 @@ inputNOT	BYTE 0dh,0ah
 			BYTE "Input the 32-bit hexadecimal", 0dh, 0ah
 			BYTE "operand: ", 0
 
-promptAND	BYTE "Boolean AND", 0
-promptOR	BYTE "Boolean OR", 0
-promptNOT	BYTE "Boolean NOT", 0
-promptXOR	BYTE "Boolean XOR", 0
+promptAND	BYTE "Operation AND", 0
+promptOR	BYTE "Operation OR", 0
+promptNOT	BYTE "Operation NOT", 0
+promptXOR	BYTE "Operation XOR", 0
 
 promptERROR BYTE "Invalid Input! Please Enter a valid input.", 0
 
