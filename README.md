@@ -1,4 +1,4 @@
-# Hexadecimal-Calculator 🧮
+# 32-bits Hexadecimal-Calculator 🧮
 
 :white_circle: AND Operation
 
